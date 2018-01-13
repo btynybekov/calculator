@@ -10,4 +10,5 @@ func main()  {
 	fmt.Println("6 * 4 = ", calculator.Multiplication(8, 2))
 	fmt.Println("8 / 2 = ", calculator.Division(8, 2))
 	fmt.Println("Sqrt(9) = ", calculator.Sqrt(16))
+	fmt.Println("8 ** 2 = ", calculator.power(8, 2))
 }
