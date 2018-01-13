@@ -5,8 +5,9 @@ import
 "github.com/btynybekov/go-calculator-util/calculator"
 
 func main()  {
-	fmt.Println("6 + 4 = " , calculator.Sub(4, 2))
-	fmt.Println("6 - 4 = ", calculator.Sub(4, 6))
-	fmt.Println("6 * 4 = ", calculator.Multi(6, 4))
-	fmt.Println("Sqrt(9) = ", calculator.Sqrt(9))
+	fmt.Println("6 + 4 = " , calculator.Sum(8, 2))
+	fmt.Println("6 - 4 = ", calculator.Sub(8, 2))
+	fmt.Println("6 * 4 = ", calculator.Multiplication(8, 2))
+	fmt.Println("8 / 2 = ", calculator.Division(8, 2))
+	fmt.Println("Sqrt(9) = ", calculator.Sqrt(16))
 }
